@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Graham Smith — Deal Architect</title>
+    <meta
+      name="description"
+      content="Graham Smith is a Christchurch-based commercial property investor and private capital deal maker."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="brand" href="#top">GS</a>
+        <nav class="nav">
+          <a href="#about">About</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="top">
+      <section class="hero">
+        <div class="container hero-inner">
+          <p class="eyebrow">Graham Smith</p>
+          <h1>
+            Deal <span class="accent">Architect</span>
+          </h1>
+          <p class="lede">
+            Designing and executing commercial property and private capital
+            transactions from Christchurch, New Zealand.
+          </p>
+          <div class="hero-actions">
+            <a href="#contact" class="btn btn-primary">Start a conversation</a>
+            <a href="#about" class="btn btn-ghost">About Graham</a>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="about">
+        <div class="container about-inner">
+          <p class="section-eyebrow">About</p>
+          <h2>
+            Commercial property and private capital, structured with intent.
+          </h2>
+          <div class="about-body">
+            <p>
+              Graham Smith is a Christchurch-based commercial property investor
+              and private capital deal maker. He partners with vendors,
+              investors and operators to source, structure and complete
+              transactions that others find difficult to put together.
+            </p>
+            <p>
+              His work spans direct property acquisition, syndicated equity and
+              bespoke private capital arrangements — built on long relationships,
+              disciplined underwriting and a preference for getting the structure
+              right before the paperwork starts.
+            </p>
+          </div>
+          <ul class="pillars">
+            <li>
+              <span class="pillar-label">Focus</span>
+              <span class="pillar-value">Commercial property</span>
+            </li>
+            <li>
+              <span class="pillar-label">Base</span>
+              <span class="pillar-value">Christchurch, NZ</span>
+            </li>
+            <li>
+              <span class="pillar-label">Discipline</span>
+              <span class="pillar-value">Private capital</span>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section id="contact" class="contact">
+        <div class="container contact-inner">
+          <p class="section-eyebrow">Contact</p>
+          <h2>Have a deal worth a conversation?</h2>
+          <p class="contact-lede">
+            Off-market opportunities, capital partnerships and introductions
+            are always welcome. Direct enquiries receive a direct reply.
+          </p>
+          <a class="contact-email" href="mailto:grahamjsmith@me.com"
+            >grahamjsmith@me.com</a
+          >
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <span>&copy; <span id="year"></span> Graham Smith</span>
+        <span class="footer-meta">Christchurch · New Zealand</span>
+      </div>
+    </footer>
+
+    <script>
+      document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+  </body>
+</html>
